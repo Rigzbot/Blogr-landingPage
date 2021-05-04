@@ -89,6 +89,7 @@ a:hover{
   background-position: center;
   background-size: 250%;
   background-repeat: no-repeat;
+  border-bottom-left-radius: 150px;
 }
 
 .introText{
@@ -197,6 +198,7 @@ h1{
   background-position: left;
   background-size: 50%;
   background-repeat: no-repeat;
+  border-bottom-left-radius: 150px;
 }
 
 .features2Text{
@@ -221,6 +223,7 @@ h1{
   float: left;
   position: relative;
   bottom: 90px;
+  left:200px;
   width: 35%;
   z-index: 3;
   margin-right: 20rem;
