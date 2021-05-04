@@ -1,0 +1,298 @@
+body{
+  max-width: 100%;
+  font-size: 16px;
+  overflow-x: hidden;
+}
+
+h1,h2,h3{
+  font-family: 'Ubuntu', sans-serif;
+}
+
+p{
+  font-family: 'Overpass', sans-serif;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+a:hover{
+  color: white;
+  text-decoration: underline;
+}
+
+
+
+/****************************** Main Styles***********************************/
+
+/* Navbar Styles */
+.navbar{
+  padding: 40px 60px;
+}
+
+.nav-item{
+  padding: 0 15px;
+}
+
+.nav-link{
+  color: white;
+  font-weight: 600;
+}
+
+.logoNav{
+  padding-right: 35px;
+  font-size: 2.5rem;
+  font-weight: 500;
+  color: white;
+}
+
+.dropdown-item a{
+  color: black;
+}
+
+.dropdown-item a:hover{
+  font-weight: 600;
+}
+
+.loginButton{
+  color: white;
+  font-weight: 600;
+}
+
+.loginButton:hover{
+  text-decoration: underline;
+  color: white;
+}
+
+.signupButton{
+  background-color: white;
+  color: hsl(353, 100%, 62%);
+  border-radius: 50px;
+  width: 150px;
+  font-weight: 600;
+}
+
+.signupButton:hover{
+  color: hsl(353, 100%, 62%);
+  font-weight: 800;
+}
+
+/************************* Landing Page Styles ********************************/
+
+.landingPage{
+  text-align: center;
+  width: 100%;
+  height: 80vh;
+  background-image: url("D:/Web Dev/Practice Projects/Frontend/blogr-landing-page-main/images/bg-pattern-intro.svg"), linear-gradient(to left, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+  position: relative;
+  background-position: center;
+  background-size: 250%;
+  background-repeat: no-repeat;
+}
+
+.introText{
+  color: white;
+  line-height: 3;
+}
+
+h1{
+  font-size: 5rem;
+  margin-top: 4%;
+}
+
+.introPara{
+  font-size: 1.5rem;
+  margin: 30px 0;
+}
+
+.ctaButton{
+  margin: 20px 10px 0;
+  border-radius: 50px;
+  color: hsl(353, 100%, 62%);
+  font-weight: 600;
+}
+
+.ctaButton.btn-light:hover{
+  color: hsl(353, 100%, 62%);
+  font-weight: 800;
+}
+
+.ctaButton.btn-outline-light{
+  color: white;
+  width: 154px;
+}
+
+.ctaButton.btn-outline-light:hover{
+  color: hsl(353, 100%, 62%);
+}
+
+/****************************** Features1 Styles ******************************/
+
+.features1{
+  width: 100%;
+  position: relative;
+  padding-top: 13rem;
+  background: white;
+  z-index: 2;
+ }
+
+.features1Text{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.features1Text-leftcolumn{
+  flex-basis: 50%;
+  margin-left: 10rem;
+}
+
+.features1 h2{
+  text-align: center;
+  color: hsl(208, 49%, 24%);
+  font-size: 3.5rem;
+  margin-bottom: -4rem;
+  font-weight: 700;
+}
+
+
+.features1Text-leftcolumn h3{
+  color: hsl(208, 49%, 24%);
+  font-size: 1.8rem;
+  margin-bottom: 2.5rem;
+  font-weight: 700;
+}
+
+.features1Text-leftcolumn p{
+  font-size: 1.2rem;
+  color: grey;
+  font-weight: 300;
+  margin-bottom: 3rem;
+  width: 80%;
+}
+
+.features1Text-rightcolumn{
+  position: relative;
+  flex-basis: 50%;
+}
+
+.editorImg{
+  float: left;
+  width: 120%;
+  position: relative;
+  left: 150px;
+}
+
+
+/****************************** features2 Styles*******************************/
+
+.features2{
+  margin-top: 50px;
+  width: 100%;
+  background: hsl(237, 17%, 21%);
+  height: 50vh;
+  background-image: url("D:/Web Dev/Practice Projects/Frontend/blogr-landing-page-main/images/bg-pattern-circles.svg");
+  background-position: left;
+  background-size: 50%;
+  background-repeat: no-repeat;
+}
+
+.features2Text{
+  color: white;
+  text-align: left;
+  width: 90%;
+  position: relative;
+  top: 20%;
+}
+
+.features2Text h2{
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+.features2Text p{
+  margin-top: 30px;
+  font-size: 1.2rem;
+}
+
+.mobileImg{
+  float: left;
+  position: relative;
+  bottom: 90px;
+  width: 35%;
+  z-index: 3;
+  margin-right: 20rem;
+}
+
+/*******************************Features3 Styles*******************************/
+.features3{
+  width: 100%;
+  position: relative;
+  background: white;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  bottom:100px;
+ }
+
+.features3Text-leftcolumn{
+  flex-basis: 50%;
+  position: relative;
+}
+
+.features3Text-rightcolumn{
+  flex-basis: 50%;
+}
+
+.features3Text-rightcolumn h3{
+  color: hsl(208, 49%, 24%);
+  font-size: 1.8rem;
+  margin-bottom: 2.5rem;
+  font-weight: 700;
+}
+
+.features3Text-rightcolumn p{
+  font-size: 1.2rem;
+  color: grey;
+  font-weight: 300;
+  margin-bottom: 3rem;
+  width: 80%;
+}
+
+.laptopImg{
+  float: right;
+  width: 120%;
+  position: relative;
+  right: 150px;
+}
+
+/****************************Footer Styles*************************************/
+
+footer{
+  padding: 50px 0 10px;
+  background-color: hsl(240, 10%, 16%);
+  color: hsl(240, 2%, 79%);
+}
+
+footer h2,h5{
+  color: white;
+  margin-bottom: 50px;
+}
+
+footer h2{
+  font-size: 3rem;
+}
+
+footer li{
+  margin: 10px;
+}
+
+.copyright{
+  text-align: center;
+  color: white;
+  font-size: 12px;
+  opacity: 0.6;
+  margin-top: 50px;
+}
