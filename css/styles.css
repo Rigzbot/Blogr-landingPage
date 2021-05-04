@@ -315,6 +315,11 @@ footer li{
 
 @media (max-width:1400px){
 
+  body{
+    max-width:100vh;
+    overflow-x: hidden;
+  }
+
   /* Landing Page */
   .navbar{
     padding: 0 15px 80px;
@@ -427,7 +432,7 @@ footer li{
   .mobileImg{
     position: relative;
     left: 5px;
-    bottom: 150px;
+    bottom: 200px;
     width: 100%;
     z-index: 3;
     text-align: center;
