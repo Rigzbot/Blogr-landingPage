@@ -402,7 +402,7 @@ footer li{
     background-size: 100%;
     border-top-right-radius: 100px;
     border-bottom-left-radius: 100px;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
   }
 
   .features2Text{
